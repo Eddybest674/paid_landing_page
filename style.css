@@ -1,0 +1,54 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: url('img/techh.jpg') no-repeat center center fixed;
+    color: rgb(0, 0, 0);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    transition: all 20s;
+}
+
+h1:hover{
+    transform: rotate(-720deg);
+}
+
+hr{
+    border-width: 5px;
+    border-color:rgba(125, 58, 34,0.6) ;
+    max-width: 70px;
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
+
+.btn{
+    font-weight: 600;
+    border-radius: 250px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: rgba(125, 58, 34,0.6);
+    border-color: rgb(255, 185, 185);
+}
+
+.btn-primary:hover{
+    
+    border-width: 5px;
+}
+
+
+
+.buffer{
+    height: 50px;
+}
